@@ -1,0 +1,30 @@
+{
+  "name": "rishi-soni",
+  "version": "1.0.0",
+  "description": "My Own Portfolio",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishi6071/rishi-soni-portfolio.git"
+  },
+  "keywords": [
+    "Portfolio",
+    "\"Rishi",
+    "Soni\""
+  ],
+  "author": "Rishi Soni",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rishi6071/rishi-soni-portfolio/issues"
+  },
+  "homepage": "https://github.com/rishi6071/rishi-soni-portfolio#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}
