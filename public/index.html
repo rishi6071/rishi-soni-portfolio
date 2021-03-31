@@ -107,7 +107,8 @@
         <div class="container-fluid mb-2 py-md-4 py-3" id="banner-outer">
             <div class="row">
 
-                <div class="col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-11 p-4" id="banner-inner">
+                <div class="col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-11 p-4 tilt-element" data-tilt
+                    data-tilt-axis="x" id="banner-inner">
                     <h4 class="font-weight-bold pb-2">Hello World! <span id="my_name_box">This is <span
                                 class="myName">Rishi Soni</span></span>
                     </h4>
@@ -327,57 +328,57 @@
             <hr class="w-100 thematic-break" />
             <div class="row pb-4">
                 <div class="col-md-6 col-12 mt-2">
-                    <div class="tech-field float" title="HyperText Markup Language (v5)">
+                    <div class="tech-field tilt-element float" title="HyperText Markup Language (v5)" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                         <p class="pl-4"><img src="./img/tech_icons/html-5.png" alt="HTML5" /> <span>HTML5</span></p>
                     </div>
                 </div>
                 <div class="col-md-6 col-12 mt-2" title="Cascading Stylesheet (v3)">
-                    <div class="tech-field float-center">
+                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                         <p class="pl-4"><img src="./img/tech_icons/css.png" alt="CSS3" /> <span>CSS3</span></p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-12 mt-2">
-                    <div class="tech-field float" title="Bootstrap CSS Framework (v4)">
+                    <div class="tech-field tilt-element float" title="Bootstrap CSS Framework (v4)" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                         <p class="pl-4"><img src="./img/tech_icons/bootstrap4.png" alt="Bootstrap4" /> <span>Bootstrap
                                 4</span></p>
                     </div>
                 </div>
                 <div class="col-md-6 col-12 mt-2" title="JavaScript (ES6)">
-                    <div class="tech-field float-center">
+                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                         <p class="pl-4"><img src="./img/tech_icons/javascript.png" alt="JS" /> <span>JavaScript</span>
                         </p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-12 mt-2" title="React JS">
-                    <div class="tech-field float">
+                    <div class="tech-field tilt-element float" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                         <p class="pl-4"><img src="./img/tech_icons/react.ico" alt="React" /> <span>React JS</span></p>
                     </div>
                 </div>
                 <div class="col-md-6 col-12 mt-2" title="jQuery">
-                    <div class="tech-field float-center">
+                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                         <p class="pl-4"><img src="./img/tech_icons/jQuery.png" alt="jQuery" /> <span>jQuery</span></p>
                     </div>
                 </div>
                 <div class="col-md-6 col-12 mt-2" title="Java Standard Edition (JSE)">
-                    <div class="tech-field float">
+                    <div class="tech-field tilt-element float" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                         <p class="pl-4"><img src="./img/tech_icons/java.png" alt="Java" /> <span>Core Java</span></p>
                     </div>
                 </div>
                 <div class="col-md-6 col-12 mt-2" title="Structured Query Language">
-                    <div class="tech-field float-center">
+                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                         <p class="pl-4"><img src="./img/tech_icons/sql.png" alt="SQL" /> <span>SQL</span></p>
                     </div>
                 </div>
                 <div class="col-md-6 col-12 mt-2" title="C Programming Language">
-                    <div class="tech-field float">
+                    <div class="tech-field tilt-element float" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                         <p class="pl-4"><img src="./img/tech_icons/c.png" alt="C" /> <span>C Programming</span></p>
                     </div>
                 </div>
 
                 <!-- <div class="col-md-6 col-12 mt-2" title="C++ Programming Language">
-                    <div class="tech-field float-center">
+                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                         <p class="pl-4"><img src="./img/tech_icons/cpp.png" alt="C++" /> <span>C++ Programming</span></p>
                     </div>
                 </div> -->
@@ -541,6 +542,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+
+    <!-- Vanilla Tilt.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+        integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+        crossorigin="anonymous"></script>
+    <script src="./js/custom_js/tilt.js" defer></script>
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
