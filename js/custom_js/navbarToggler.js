@@ -1,12 +1,9 @@
-let bar = document.getElementById('bar');
-let cross = document.getElementById('cross');
-
-let openMenu = function(element)   {
-    bar.style.display = "none";
-    cross.style.display = "block";
+const openMenu = function(element)   {
+    document.getElementById('bar').style.display = "none";
+    document.getElementById('cross').style.display = "block";
 }
 
-let closeMenu = function(element)  {
-    bar.style.display = "block";
-    cross.style.display = "none";
+const closeMenu = function(element)  {
+    document.getElementById('bar').style.display = "block";
+    document.getElementById('cross').style.display = "none";
 }

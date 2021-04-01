@@ -29,7 +29,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Roboto:wght@300;400&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/custom_css/indexStyle.css" />
@@ -46,13 +45,17 @@
     <!-- Navbar Start -->
     <header>
         <nav class="navbar navbar-expand-md navbar-white bg-white">
-            <a class="navbar-brand pl-3" data-toggle="modal" data-target="#profilePic" href="#">Rishi Soni</a>
+            <a class="navbar-brand pl-md-3 pl-1" data-toggle="modal" data-target="#profilePic" href="#">
+                <img src="./img/profile/Rishi_Soni_Profile.jpg" alt="Profile Pic" />
+                <span id="profile_name">Rishi Soni</span>
+            </a>
             <button class="navbar-toggler p-0 mr-3" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
-                    <i class="fa fa-bars menu-icon" aria-hidden="true" id="bar" onclick="openMenu(this)"></i>
-                    <i class="fa fa-times menu-close-icon" aria-hidden="true" id="cross" onclick="closeMenu(this)"></i>
+                    <img src="./img/icons/menu.svg" class="menu-icon" id="bar" onclick="openMenu(this)" alt="Menu" />
+                    <img src="./img/icons/close.svg" class="menu-close-icon" id="cross" onclick="closeMenu(this)"
+                        alt="Close" />
                 </span>
             </button>
 
@@ -113,7 +116,7 @@
                                 class="myName">Rishi Soni</span></span>
                     </h4>
                     <p>I have 2 years of experience in creating web based solutions using technologies
-                        such as ReactJS, HTML5, CSS3, JavaScript, jQuery Library, Bootstrap4 Framework and
+                        such as ReactJS, HTML5, CSS3, JavaScript, jQuery Library, Bootstrap Framework and
                         MaterializeCSS. And I am quite
                         good in Core Java & C Programming as well.
                         When I am not working, I enjoy swimming, and Listening Music in my free time.
@@ -121,7 +124,8 @@
                     <div class="row">
                         <div class="col">
                             <a href="./docs/Rishi_Soni.pdf" class="btn ripple mt-sm-0 mt-2 banner_btn" download>Download
-                                Cv</a>
+                                Cv
+                            </a>
                         </div>
                         <div class="col">
                             <a href="#contact" class="btn ripple mt-sm-0 mt-2 banner_btn">Contact Me</a>
@@ -328,24 +332,28 @@
             <hr class="w-100 thematic-break" />
             <div class="row pb-4">
                 <div class="col-md-6 col-12 mt-2">
-                    <div class="tech-field tilt-element float" title="HyperText Markup Language (v5)" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                    <div class="tech-field tilt-element float" title="HyperText Markup Language (v5)" data-tilt
+                        data-tilt-glare data-tilt-max-glare="0.8">
                         <p class="pl-4"><img src="./img/tech_icons/html-5.png" alt="HTML5" /> <span>HTML5</span></p>
                     </div>
                 </div>
                 <div class="col-md-6 col-12 mt-2" title="Cascading Stylesheet (v3)">
-                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-glare
+                        data-tilt-max-glare="0.8">
                         <p class="pl-4"><img src="./img/tech_icons/css.png" alt="CSS3" /> <span>CSS3</span></p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-12 mt-2">
-                    <div class="tech-field tilt-element float" title="Bootstrap CSS Framework (v4)" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                    <div class="tech-field tilt-element float" title="Bootstrap CSS Framework (v4)" data-tilt
+                        data-tilt-glare data-tilt-max-glare="0.8">
                         <p class="pl-4"><img src="./img/tech_icons/bootstrap4.png" alt="Bootstrap4" /> <span>Bootstrap
                                 4</span></p>
                     </div>
                 </div>
                 <div class="col-md-6 col-12 mt-2" title="JavaScript (ES6)">
-                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-glare
+                        data-tilt-max-glare="0.8">
                         <p class="pl-4"><img src="./img/tech_icons/javascript.png" alt="JS" /> <span>JavaScript</span>
                         </p>
                     </div>
@@ -357,7 +365,8 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-12 mt-2" title="jQuery">
-                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-glare
+                        data-tilt-max-glare="0.8">
                         <p class="pl-4"><img src="./img/tech_icons/jQuery.png" alt="jQuery" /> <span>jQuery</span></p>
                     </div>
                 </div>
@@ -367,7 +376,8 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-12 mt-2" title="Structured Query Language">
-                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-glare
+                        data-tilt-max-glare="0.8">
                         <p class="pl-4"><img src="./img/tech_icons/sql.png" alt="SQL" /> <span>SQL</span></p>
                     </div>
                 </div>
@@ -559,8 +569,8 @@
     <script src="./js/custom_js/firebase.js" defer></script>
 
     <!-- Custom Scripts -->
-    <script src="./js/custom_js/preloader.js"></script>
-    <script src="./js/custom_js/navbarToggler.js"></script>
+    <script src="./js/custom_js/preloader.js" defer></script>
+    <script src="./js/custom_js/navbarToggler.js" defer></script>
 </body>
 
 </html>

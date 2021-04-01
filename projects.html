@@ -29,7 +29,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Roboto:wght@300;400&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/custom_css/indexStyle.css" />
@@ -46,13 +45,16 @@
     <!-- Navbar Start -->
     <header>
         <nav class="navbar navbar-expand-md navbar-white bg-white">
-            <a class="navbar-brand pl-3" href="./index.html">Rishi Soni</a>
+            <a class="navbar-brand pl-md-3 pl-1" data-toggle="modal" data-target="#profilePic" href="#">
+                <img src="./img/profile/Rishi_Soni_Profile.jpg" alt="Profile Pic" />
+                <span id="profile_name">Rishi Soni</span>
+            </a>
             <button class="navbar-toggler p-0 mr-3" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
-                    <i class="fa fa-bars menu-icon" aria-hidden="true" id="bar" onclick="openMenu(this)"></i>
-                    <i class="fa fa-times menu-close-icon" aria-hidden="true" id="cross" onclick="closeMenu(this)"></i>
+                    <img src="./img/icons/menu.svg" class="menu-icon" id="bar" onclick="openMenu(this)" alt="Menu" />
+                    <img src="./img/icons/close.svg" class="menu-close-icon" id="cross" onclick="closeMenu(this)" alt="Close" />
                 </span>
             </button>
 
@@ -74,7 +76,7 @@
                     <li class="nav-item">
                         <a class="nav-link ripple" href="index.html#contact">Contact</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item project_active">
                         <a class="nav-link ripple active" href="#">Projects</a>
                     </li>
                 </ul>
@@ -274,9 +276,9 @@
 
 
     <!-- Built-in Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
@@ -301,8 +303,8 @@
     <script src="./js/custom_js/firebase.js" defer></script>
 
     <!-- Custom Scripts -->
-    <script src="./js/custom_js/preloader.js"></script>
-    <script src="./js/custom_js/navbarToggler.js"></script>
+    <script src="./js/custom_js/preloader.js" defer></script>
+    <script src="./js/custom_js/navbarToggler.js" defer></script>
 </body>
 
 </html>

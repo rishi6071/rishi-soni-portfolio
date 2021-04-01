@@ -11,15 +11,32 @@
 }
 
 a.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+a.navbar-brand span {
   font-size: 1.7rem;
   border: none;
   color: #182153;
   font-family: "Berkshire Swash", cursive !important;
   letter-spacing: 1.5px;
+  padding-left: 10px;
+}
+
+a.navbar-brand img {
+  width: 55px;
+  height: auto;
 }
 
 a.navbar-brand:hover {
   color: #182153;
+}
+
+@media screen and (max-width: 768px) {
+  a.navbar-brand img {
+    display: none;
+  }
 }
 
 /** Toggle Menu Bar Icons */
@@ -35,6 +52,8 @@ a.navbar-brand:hover {
 .menu-close-icon {
   font-size: 1.5em;
   color: #182153;
+  width: 30px;
+  /* transform: scale(1.2); */
 }
 
 .menu-close-icon {
@@ -46,6 +65,7 @@ a.navbar-brand:hover {
   padding: 22px 0;
   color: #182153;
   transition: 0.3s;
+  letter-spacing: 1px;
 }
 
 .nav-link:hover {
@@ -53,14 +73,27 @@ a.navbar-brand:hover {
   color: white;
 }
 
+.project_active {
+  background-color: #182153;
+}
+
+.project_active .nav-link {
+  letter-spacing: 1.5px;
+  color: white !important;
+}
+
 @media screen and (max-width: 768px) {
   .navbar {
     padding: 15px 10px;
-    text-align: center;
+  }
+  
+  .nav-item {
+    text-align: center !important;
   }
 
   .nav-link {
     padding: 15px 0;
+    width: 100%;
   }
 }
 

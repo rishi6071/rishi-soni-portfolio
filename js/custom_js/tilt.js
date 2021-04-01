@@ -1,3 +1,4 @@
+// Tilt.js Library Initialization
 (() => {
     VanillaTilt.init(document.querySelector(".tilt-element"), {
         max: 5,
