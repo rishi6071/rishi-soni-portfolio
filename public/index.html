@@ -30,6 +30,9 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet" />
 
+    <!-- Animate on Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/custom_css/indexStyle.css" />
     <link rel="stylesheet" href="./css/custom_css/navbar.css" />
@@ -44,8 +47,8 @@
 
     <!-- Navbar Start -->
     <header>
-        <nav class="navbar navbar-expand-md navbar-white bg-white">
-            <a class="navbar-brand pl-md-3 pl-1" data-toggle="modal" data-target="#profilePic" href="#">
+        <nav class="navbar navbar-expand-md navbar-white bg-white" data-aos="flip-down">
+            <a class="navbar-brand pl-md-3" data-toggle="modal" data-target="#profilePic" href="#">
                 <img src="./img/profile/Rishi_Soni_Profile.jpg" alt="Profile Pic" />
                 <span id="profile_name">Rishi Soni</span>
             </a>
@@ -98,7 +101,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <img src="./img/profile/Rishi_Soni_Profile.jpg" class="profile_pic" alt="">
+                    <img src="./img/profile/Rishi_Soni_Profile.jpg" class="profile_pic" alt="ProfilePic" />
                 </div>
             </div>
         </div>
@@ -107,7 +110,7 @@
 
     <!-- Banner Start -->
     <section>
-        <div class="container-fluid mb-2 py-md-4 py-3" id="banner-outer">
+        <div class="container-fluid mb-2 py-md-4 py-3" id="banner-outer" data-aos="fade-up">
             <div class="row">
 
                 <div class="col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-11 p-4 tilt-element" data-tilt
@@ -141,11 +144,11 @@
     <!-- Experience Start -->
     <main id="experience">
         <div class="container-fluid">
-            <h4 class="section_heading">Experience</h4>
-            <hr class="w-100 thematic-break" />
+            <h4 class="section_heading" data-aos="fade-up">Experience</h4>
+            <hr class="w-100 thematic-break" data-aos="fade-up" />
             <div class="container pb-3">
 
-                <div class="row pt-3 experience-education">
+                <div class="row pt-3 experience-education" data-aos="fade-up">
                     <div class="col-md-3 col-12 px-4">
                         <figure class="mb-4">
                             <img src="./img/current_status/sparkFoundation.png" class="tech-logo" style="width: 40%;"
@@ -164,7 +167,7 @@
                     </div>
                 </div>
 
-                <div class="row pt-3 experience-education">
+                <div class="row pt-3 experience-education" data-aos="fade-up">
                     <div class="col-md-3 col-12 px-4">
                         <figure class="mb-4">
                             <img src="./img/current_status/technocolabs.png" class="tech-logo"
@@ -183,7 +186,7 @@
                     </div>
                 </div>
 
-                <div class="row pt-3 experience-education">
+                <div class="row pt-3 experience-education" data-aos="fade-up">
                     <div class="col-md-3 col-12 px-4">
                         <figure class="mb-4">
                             <img src="./img/current_status/amstech.png" class="tech-logo amstech-logo" alt="Amstech" />
@@ -201,7 +204,7 @@
                     </div>
                 </div>
 
-                <div class="row pt-3 experience-education">
+                <div class="row pt-3 experience-education" data-aos="fade-up">
                     <div class="col-md-3 col-12 px-4">
                         <figure class="mb-4">
                             <img src="./img/current_status/nidhi_logo.png" class="tech-logo"
@@ -223,7 +226,7 @@
                     </div>
                 </div>
 
-                <!-- <div class="row pt-3 experience-education">
+                <!-- <div class="row pt-3 experience-education" data-aos="fade-up">
                     <div class="col-md-3 col-12 px-4">
                         <figure class="mb-4">
                             <img src="./img/current_status/nehaShivlingArt.jpg" class="tech-logo"
@@ -245,7 +248,7 @@
                     </div>
                 </div> -->
 
-                <div class="row pt-3 experience-education">
+                <div class="row pt-3 experience-education" data-aos="fade-up">
                     <div class="col-md-3 col-12 px-4">
                         <figure class="mb-4">
                             <img src="./img/current_status/ca.png" class="tech-logo" style="object-fit: contain;"
@@ -275,10 +278,10 @@
     <!-- Education Start -->
     <section>
         <div class="container-fluid" style="background-color: #e0e0e0;">
-            <h4 class="section_heading" id="education">Education</h4>
-            <hr class="w-100 thematic-break" />
+            <h4 class="section_heading" data-aos="fade-up" id="education">Education</h4>
+            <hr class="w-100 thematic-break" data-aos="fade-up" />
             <div class="container pb-3">
-                <div class="row pt-3 experience-education">
+                <div class="row pt-3 experience-education" data-aos="fade-up">
                     <div class="col-md-6 col-12 px-4">
                         <h6 class="font-weight-bold duration-position">2018 - Present</h6>
                     </div>
@@ -293,7 +296,7 @@
                     </div>
                 </div>
 
-                <div class="row pt-3 experience-education">
+                <div class="row pt-3 experience-education" data-aos="fade-up">
                     <div class="col-md-6 col-12 px-4 org-details">
                         <h6 class="font-weight-bold duration-position">2017 - 2018</h6>
                     </div>
@@ -307,7 +310,7 @@
                     </div>
                 </div>
 
-                <div class="row pt-3 experience-education">
+                <div class="row pt-3 experience-education" data-aos="fade-up">
                     <div class="col-md-6 col-12 px-4">
                         <h6 class="font-weight-bold duration-position">2016 - 2017</h6>
                     </div>
@@ -328,67 +331,61 @@
     <section>
         <div id="skills"></div>
         <div class="container-fluid mb-3">
-            <h4 class="section_heading">Skills</h4>
-            <hr class="w-100 thematic-break" />
+            <h4 class="section_heading" data-aos="fade-up">Skills</h4>
+            <hr class="w-100 thematic-break" data-aos="fade-up" />
             <div class="row pb-4">
                 <div class="col-md-6 col-12 mt-2">
-                    <div class="tech-field tilt-element float" title="HyperText Markup Language (v5)" data-tilt
-                        data-tilt-glare data-tilt-max-glare="0.8">
+                    <div class="tech-field tilt-element float" title="HyperText Markup Language (v5)" data-tilt data-aos="fade-up">
                         <p class="pl-4"><img src="./img/tech_icons/html-5.png" alt="HTML5" /> <span>HTML5</span></p>
                     </div>
                 </div>
                 <div class="col-md-6 col-12 mt-2" title="Cascading Stylesheet (v3)">
-                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-glare
-                        data-tilt-max-glare="0.8">
+                    <div class="tech-field tilt-element float-center" data-tilt data-aos="fade-up">
                         <p class="pl-4"><img src="./img/tech_icons/css.png" alt="CSS3" /> <span>CSS3</span></p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-12 mt-2">
-                    <div class="tech-field tilt-element float" title="Bootstrap CSS Framework (v4)" data-tilt
-                        data-tilt-glare data-tilt-max-glare="0.8">
+                    <div class="tech-field tilt-element float" title="Bootstrap CSS Framework (v4)" data-tilt data-aos="fade-up">
                         <p class="pl-4"><img src="./img/tech_icons/bootstrap4.png" alt="Bootstrap4" /> <span>Bootstrap
                                 4</span></p>
                     </div>
                 </div>
                 <div class="col-md-6 col-12 mt-2" title="JavaScript (ES6)">
-                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-glare
-                        data-tilt-max-glare="0.8">
+                    <div class="tech-field tilt-element float-center" data-tilt data-aos="fade-up">
                         <p class="pl-4"><img src="./img/tech_icons/javascript.png" alt="JS" /> <span>JavaScript</span>
                         </p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-12 mt-2" title="React JS">
-                    <div class="tech-field tilt-element float" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                    <div class="tech-field tilt-element float" data-tilt data-aos="fade-up">
                         <p class="pl-4"><img src="./img/tech_icons/react.ico" alt="React" /> <span>React JS</span></p>
                     </div>
                 </div>
                 <div class="col-md-6 col-12 mt-2" title="jQuery">
-                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-glare
-                        data-tilt-max-glare="0.8">
+                    <div class="tech-field tilt-element float-center" data-tilt data-aos="fade-up">
                         <p class="pl-4"><img src="./img/tech_icons/jQuery.png" alt="jQuery" /> <span>jQuery</span></p>
                     </div>
                 </div>
                 <div class="col-md-6 col-12 mt-2" title="Java Standard Edition (JSE)">
-                    <div class="tech-field tilt-element float" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                    <div class="tech-field tilt-element float" data-tilt data-aos="fade-up">
                         <p class="pl-4"><img src="./img/tech_icons/java.png" alt="Java" /> <span>Core Java</span></p>
                     </div>
                 </div>
                 <div class="col-md-6 col-12 mt-2" title="Structured Query Language">
-                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-glare
-                        data-tilt-max-glare="0.8">
+                    <div class="tech-field tilt-element float-center" data-tilt data-aos="fade-up">
                         <p class="pl-4"><img src="./img/tech_icons/sql.png" alt="SQL" /> <span>SQL</span></p>
                     </div>
                 </div>
                 <div class="col-md-6 col-12 mt-2" title="C Programming Language">
-                    <div class="tech-field tilt-element float" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                    <div class="tech-field tilt-element float" data-tilt data-aos="fade-up">
                         <p class="pl-4"><img src="./img/tech_icons/c.png" alt="C" /> <span>C Programming</span></p>
                     </div>
                 </div>
 
                 <!-- <div class="col-md-6 col-12 mt-2" title="C++ Programming Language">
-                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                    <div class="tech-field tilt-element float-center" data-tilt data-aos="fade-up">
                         <p class="pl-4"><img src="./img/tech_icons/cpp.png" alt="C++" /> <span>C++ Programming</span></p>
                     </div>
                 </div> -->
@@ -400,11 +397,11 @@
     <!-- Community Start -->
     <section>
         <div class="container-fluid" style="background-color: #e0e0e0;">
-            <h4 class="section_heading" id="community">Community</h4>
-            <h6 class="text-center"><small>In Which i am Working / Worked</small></h6>
-            <hr class="w-100 thematic-break" />
+            <h4 class="section_heading" data-aos="fade-up" id="community">Community</h4>
+            <h6 class="text-center" data-aos="fade-up"><small>In Which i am Working / Worked</small></h6>
+            <hr class="w-100 thematic-break" data-aos="fade-up" />
             <div class="container pb-3">
-                <div class="row pt-3 experience-education">
+                <div class="row pt-3 experience-education" data-aos="fade-up">
                     <div class="col-md-6 col-12 px-4">
                         <h6 class="font-weight-bold duration-position">Feb 2021 - Present</h6>
                     </div>
@@ -417,7 +414,7 @@
                     </div>
                 </div>
 
-                <div class="row pt-3 experience-education">
+                <div class="row pt-3 experience-education" data-aos="fade-up">
                     <div class="col-md-6 col-12 px-4">
                         <h6 class="font-weight-bold duration-position">Jun 2020 - Present</h6>
                     </div>
@@ -430,7 +427,7 @@
                     </div>
                 </div>
 
-                <div class="row pt-3 experience-education">
+                <div class="row pt-3 experience-education" data-aos="fade-up">
                     <div class="col-md-6 col-12 px-4">
                         <h6 class="font-weight-bold duration-position">April 2020 - Present</h6>
                     </div>
@@ -443,7 +440,7 @@
                     </div>
                 </div>
 
-                <div class="row pt-3 experience-education">
+                <div class="row pt-3 experience-education" data-aos="fade-up">
                     <div class="col-md-6 col-12 px-4">
                         <h6 class="font-weight-bold duration-position">Jun 2019 - Feb 2020</h6>
                     </div>
@@ -466,15 +463,15 @@
     <section>
         <div id="contact"></div>
         <div class="container-fluid pb-4" style="background-color: #e0e0e0;">
-            <h4 class="section_heading">Contact Me</h4>
-            <h6 class="text-center"><small>I'll Revert back to you within 24 Hours</small></h6>
-            <hr class="w-100 thematic-break" />
+            <h4 class="section_heading" data-aos="fade-up">Contact Me</h4>
+            <h6 class="text-center" data-aos="fade-up"><small>I'll Revert back to you within 24 Hours</small></h6>
+            <hr class="w-100 thematic-break" data-aos="fade-up" />
             <div class="container pb-3">
                 <div class="row pt-3">
 
                     <div class="col-md-6 col-12 px-4">
                         <form action="#" name="messageForm" id="msgeForm" autocomplete="off">
-                            <div class="form-group">
+                            <div class="form-group" data-aos="flip-right">
                                 <div class="row">
                                     <div class="col-md-6 col-12">
                                         <input type="text" name="name" class="form-control mt-3" id="nam"
@@ -486,35 +483,35 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group">
+                            <div class="form-group" data-aos="flip-right">
                                 <input type="text" name="subject" class="form-control mt-2" id="sub"
                                     placeholder="Subject" value="" required />
                             </div>
-                            <div class="form-group">
+                            <div class="form-group" data-aos="flip-right">
                                 <textarea name="message" id="msge" cols="30" rows="4" class="form-control"
                                     placeholder="Message" required></textarea>
                             </div>
-                            <div class="form-group">
+                            <div class="form-group" data-aos="flip-right">
                                 <input type="submit" value="SUBMIT" class="btn btn-primary pt-2 btn-block ripple" />
                             </div>
                         </form>
                     </div>
 
                     <div class="col-md-6 col-12 mt-4 px-4 contact_box">
-                        <div class="contact-details">
+                        <div class="contact-details" data-aos="flip-left">
                             <h5 class="font-weight-bold">Rishi Soni</h5>
                             <small>Frontend Development | Java</small>
                         </div>
-                        <div class="contact-details mt-4">
+                        <div class="contact-details mt-4" data-aos="flip-left">
                             <h5 class="font-weight-bold">Phone:</h5>
                             <small>+91 <a href="tel:9754370193" class="contact-link">9754370193</a></small>
                         </div>
-                        <div class="contact-details mt-4">
+                        <div class="contact-details mt-4" data-aos="flip-left">
                             <h5 class="font-weight-bold">Email:</h5>
                             <a href="mailto:rishisoni6071@gmail.com"
                                 class="small contact-link">rishisoni6071@gmail.com</a>
                         </div>
-                        <div class="contact-details mt-2">
+                        <div class="contact-details mt-2" data-aos="flip-left">
                             <hr class="w-100 thematic-break" />
                             <div class="mt-2">
                                 <a href="https://wa.me/9754370193" class="social-link" target="_blank">
@@ -576,6 +573,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+
+    <!-- Animate On Scroll Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Vanilla Tilt.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"

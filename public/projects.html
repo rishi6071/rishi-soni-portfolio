@@ -30,6 +30,9 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet" />
 
+    <!-- Animate on Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/custom_css/indexStyle.css" />
     <link rel="stylesheet" href="./css/custom_css/navbar.css" />
@@ -44,8 +47,8 @@
 
     <!-- Navbar Start -->
     <header>
-        <nav class="navbar navbar-expand-md navbar-white bg-white">
-            <a class="navbar-brand pl-md-3 pl-1" data-toggle="modal" data-target="#profilePic" href="#">
+        <nav class="navbar navbar-expand-md navbar-white bg-white" data-aos="flip-down">
+            <a class="navbar-brand pl-md-3" data-toggle="modal" data-target="#profilePic" href="#">
                 <img src="./img/profile/Rishi_Soni_Profile.jpg" alt="Profile Pic" />
                 <span id="profile_name">Rishi Soni</span>
             </a>
@@ -54,7 +57,8 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
                     <img src="./img/icons/menu.svg" class="menu-icon" id="bar" onclick="openMenu(this)" alt="Menu" />
-                    <img src="./img/icons/close.svg" class="menu-close-icon" id="cross" onclick="closeMenu(this)" alt="Close" />
+                    <img src="./img/icons/close.svg" class="menu-close-icon" id="cross" onclick="closeMenu(this)"
+                        alt="Close" />
                 </span>
             </button>
 
@@ -87,7 +91,7 @@
 
     <!-- Project Banner Start -->
     <section>
-        <div class="container-fluid mb-2 p-3" id="banner-outer">
+        <div class="container-fluid mb-2 p-3" id="banner-outer" data-aos="fade-up">
             <div class="row">
 
                 <div class="col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-11 p-4 tilt-element" data-tilt
@@ -107,13 +111,13 @@
 
                 <!-- React Projects -->
                 <div class="col-md-6 col-12 project-column mt-5">
-                    <hr class="w-100 thematic-break" />
-                    <h6 class="font-weight-bold"><span class="projects-head">REACT Projects</span>
+                    <hr class="w-100 thematic-break" data-aos="fade-up" />
+                    <h6 class="font-weight-bold" data-aos="fade-up"><span class="projects-head">REACT Projects</span>
                         <a href="#" class="btn ripple btn-info btn-sm px-3 source-btn">View Source Code</a>
                     </h6>
-                    <hr class="w-100 thematic-break" />
+                    <hr class="w-100 thematic-break" data-aos="fade-up" />
                     <ul class="projects px-3" type="square">
-                        <li>Created a portfolio Template which can be use for any Business Personality or Skillful
+                        <li data-aos="fade-up" data-aos-delay="400">Created a portfolio Template which can be use for any Business Personality or Skillful
                             employ to enhance their impression and provide all the necessary information about him
                             such as his blogs, portfolio details, services he provides and contact information.
                             <br>
@@ -123,7 +127,7 @@
                             <a href="https://rishi6071.github.io/allaboutus/" target="_blank"
                                 class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
                         </li>
-                        <li>Created an Online Books Store Mobile Responsive Website Template. There are about
+                        <li data-aos="fade-up">Created an Online Books Store Mobile Responsive Website Template. There are about
                             13 Screens in that template and good enough to become an professional
                             eCommercial Website.<br>
                             It's a basic multi-purpose demo website which can be customized
@@ -132,13 +136,13 @@
                             <a href="https://rishi6071.github.io/bethebest/" target="_blank"
                                 class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
                         </li>
-                        <li>Created a Coffee Shop Webpage using Materialize CSS Framework in which beautyful
+                        <li data-aos="fade-up">Created a Coffee Shop Webpage using Materialize CSS Framework in which beautyful
                             coffee cards, parallax and lot more stuff..<br>
                             <a href="https://rishi6071.github.io/coffeeking/" target="_blank"
                                 class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
                         </li>
                     </ul>
-                    <div class="tech-used px-3">
+                    <div class="tech-used px-3" data-aos="fade-up">
                         <p>Technologies Used:</p>
                         <p>REACT, JSX, Material UI, Axios, Bootstrap-5</p>
                     </div>
@@ -146,13 +150,13 @@
 
                 <!-- HTML Projects -->
                 <div class="col-md-6 col-12 project-column mt-5">
-                    <hr class="w-100 thematic-break" />
-                    <h6 class="font-weight-bold"><span class="projects-head">HTML Projects</span>
+                    <hr class="w-100 thematic-break" data-aos="fade-up" />
+                    <h6 class="font-weight-bold" data-aos="fade-up"><span class="projects-head">HTML Projects</span>
                         <a href="#" class="btn ripple btn-info btn-sm px-3 source-btn">View Source Code</a>
                     </h6>
-                    <hr class="w-100 thematic-break" />
+                    <hr class="w-100 thematic-break" data-aos="fade-up" />
                     <ul class="projects px-3" type="square">
-                        <li>Created a Project for Technocolabs Information Technology in which I have worked
+                        <li data-aos="fade-up" data-aos-delay="400">Created a Project for Technocolabs Information Technology in which I have worked
                             as a Web Development Intern for 1 & half Month. I have designed the entire UI of
                             that project except one to two components.
                             <br>
@@ -163,23 +167,23 @@
                             <a href="https://rishi6071.github.io/technocolabs/" target="_blank"
                                 class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
                         </li>
-                        <li>Create an Snake Game using JavaScript in which first it will ask for the name of
+                        <li data-aos="fade-up">Create an Snake Game using JavaScript in which first it will ask for the name of
                             player for Greeting, will count Score of player, blinking of eyes of Snake, can set
                             difficulty as well will increase the speed of Snake.<br>
                             <a href="https://rishi6071.github.io/hungrysnake/" target="_blank"
                                 class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
                         </li>
-                        <li>Created my own portfolio in which i have provided all the necessary information about me
+                        <li data-aos="fade-up">Created my own portfolio in which i have provided all the necessary information about me
                             such as Experience, Education, Skills, Contact information and Projects
                             those i have created.<br>
                             <a href="https://rishi6071.github.io/myportfolio/" target="_blank"
                                 class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
                         </li>
-                        <li>Created a basic calculator webapp using HTML, CSS, and Javascript. <br>
+                        <li data-aos="fade-up">Created a basic calculator webapp using HTML, CSS, and Javascript. <br>
                             <a href="#" class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
                         </li>
                     </ul>
-                    <div class="tech-used px-3">
+                    <div class="tech-used px-3" data-aos="fade-up">
                         <p>Technologies Used:</p>
                         <p>HTML, CSS, Bootstrap 4, JavaScript, Canvas</p>
                     </div>
@@ -187,13 +191,13 @@
 
                 <!-- Responsive Website Templates -->
                 <div class="col-md-6 col-12 project-column mt-5">
-                    <hr class="w-100 thematic-break" />
-                    <h6 class="font-weight-bold"><span class="projects-head">Responsive Website Templates</span>
+                    <hr class="w-100 thematic-break" data-aos="fade-up" />
+                    <h6 class="font-weight-bold" data-aos="fade-up"><span class="projects-head">Responsive Website Templates</span>
                         <a href="#" class="btn ripple btn-info btn-sm px-3 source-btn">View Source Code</a>
                     </h6>
-                    <hr class="w-100 thematic-break" />
+                    <hr class="w-100 thematic-break" data-aos="fade-up" />
                     <ul class="projects px-3" type="square">
-                        <li>Created a portfolio Template which can be use for any Business Personality or Skillful
+                        <li data-aos="fade-up">Created a portfolio Template which can be use for any Business Personality or Skillful
                             employ to enhance their impression and provide all the necessary information about him
                             such as his blogs, portfolio details, services he provides and contact information.
                             <br>
@@ -203,7 +207,7 @@
                             <a href="https://rishi6071.github.io/allaboutus/" target="_blank"
                                 class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
                         </li>
-                        <li>Created an Online Books Store Mobile Responsive Website Template. There are about
+                        <li data-aos="fade-up">Created an Online Books Store Mobile Responsive Website Template. There are about
                             13 Screens in that template and good enough to become an professional
                             eCommercial Website.<br>
                             It's a basic multi-purpose demo website which can be customized
@@ -212,13 +216,13 @@
                             <a href="https://rishi6071.github.io/bethebest/" target="_blank"
                                 class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
                         </li>
-                        <li>Created a Coffee Shop Webpage using Materialize CSS Framework in which beautyful
+                        <li data-aos="fade-up">Created a Coffee Shop Webpage using Materialize CSS Framework in which beautyful
                             coffee cards, parallax and lot more stuff..<br>
                             <a href="https://rishi6071.github.io/coffeeking/" target="_blank"
                                 class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
                         </li>
                     </ul>
-                    <div class="tech-used px-3">
+                    <div class="tech-used px-3" data-aos="fade-up">
                         <p>Technologies Used:</p>
                         <p>HTML, CSS, Bootstrap 4, Materialize CSS, JavaScript</p>
                     </div>
@@ -226,13 +230,13 @@
 
                 <!-- C Projects -->
                 <div class="col-md-6 col-12 project-column mt-5">
-                    <hr class="w-100 thematic-break" />
-                    <h6 class="font-weight-bold"><span class="projects-head">C, C++ Projects</span>
+                    <hr class="w-100 thematic-break" data-aos="fade-up" />
+                    <h6 class="font-weight-bold" data-aos="fade-up"><span class="projects-head">C, C++ Projects</span>
                         <a href="#" class="btn ripple btn-info btn-sm px-3 source-btn">View Source Code</a>
                     </h6>
-                    <hr class="w-100 thematic-break" />
+                    <hr class="w-100 thematic-break" data-aos="fade-up" />
                     <ul class="projects px-3" type="square">
-                        <li>Created a Student Record Management System in C Language using File Handling.
+                        <li data-aos="fade-up">Created a Student Record Management System in C Language using File Handling.
                             In this Project, data of various students can be store and we can fetch
                             their information for the particular student. The menu would be shown for the
                             user:<br>
@@ -242,18 +246,18 @@
                             <br>
                             <a href="#" class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Works</a>
                         </li>
-                        <li>Created a Guess Game Program in C Language. In this program, user plays a
+                        <li data-aos="fade-up">Created a Guess Game Program in C Language. In this program, user plays a
                             game with the system that system generate a random number in b/w specific
                             range and allow 3 chances to user to Guess the Number.<br>
                             <a href="#" class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Works</a>
                         </li>
-                        <li>Created a Calsi (Advanced Calculator). In this project, there are about
+                        <li data-aos="fade-up">Created a Calsi (Advanced Calculator). In this project, there are about
                             50+ calculations that user can be perform. When user chooses a Operation,
                             system provides the formula and access to put values in that formula.<br>
                             <a href="#" class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Works</a>
                         </li>
                     </ul>
-                    <div class="tech-used px-3">
+                    <div class="tech-used px-3" data-aos="fade-up">
                         <p>Technologies Used:</p>
                         <p>C, C++ Programming, File Handling</p>
                     </div>
@@ -286,6 +290,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+
+    <!-- Animate On Scroll Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Vanilla Tilt.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"

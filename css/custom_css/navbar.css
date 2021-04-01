@@ -4,7 +4,7 @@
 /****** || NAVBAR ******/
 .navbar {
   padding: 0;
-  border-bottom: 1px solid #182153;
+  border-bottom: none !important;
   -webkit-box-shadow: -1px 5px 15px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: -1px 5px 15px rgba(0, 0, 0, 0.15);
   box-shadow: -1px 5px 15px rgba(0, 0, 0, 0.15);
@@ -27,6 +27,7 @@ a.navbar-brand span {
 a.navbar-brand img {
   width: 55px;
   height: auto;
+  border-radius: 3px;
 }
 
 a.navbar-brand:hover {
@@ -40,6 +41,11 @@ a.navbar-brand:hover {
 }
 
 /** Toggle Menu Bar Icons */
+.navbar-toggler-icon {
+  display: flex;
+  align-items: center;
+}
+
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
@@ -50,19 +56,19 @@ a.navbar-brand:hover {
 
 .menu-icon,
 .menu-close-icon {
-  font-size: 1.5em;
   color: #182153;
-  width: 30px;
+  width: 25px;
   /* transform: scale(1.2); */
 }
 
 .menu-close-icon {
   display: none;
+  transform: scale(0.8);
 }
 
 .nav-link {
-  font-size: 1.1rem;
-  padding: 22px 0;
+  font-size: 1rem;
+  padding: 22px 10px !important;
   color: #182153;
   transition: 0.3s;
   letter-spacing: 1px;
@@ -82,7 +88,7 @@ a.navbar-brand:hover {
   color: white !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .navbar {
     padding: 15px 10px;
   }
