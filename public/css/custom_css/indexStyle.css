@@ -219,7 +219,8 @@ a.projectWeb:hover {
   flex-direction: column;
 }
 
-form#msgeForm input {
+form#msgeForm input,
+form#msgeForm textarea {
   font-size: small;
 }
 
