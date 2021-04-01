@@ -31,4 +31,19 @@ const saveContactInfo = (email, name, subject, message) => {
         subject: subject,
         message: message
     });
+
+    // Show Contact Query Sent Status
+    showContactStatus();
+
+    // Reset the Form Information
+    document.querySelector('#msgeForm').reset();
+}
+
+// Show Contact Toast Status
+const showContactStatus = () => {
+    document.querySelector('#showToastStatus').style.display = "block";
+
+    setTimeout(() => {
+        document.querySelector('#showToastStatus').style.display = "none";
+    }, 2500);
 }
