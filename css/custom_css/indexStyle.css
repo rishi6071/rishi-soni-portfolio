@@ -91,12 +91,6 @@ div#banner-inner p {
   font-variant: small-caps;
 }
 
-@media screen and (max-width: 400px) {
-  .banner_btn {
-    padding: 5px 13px;
-  }
-}
-
 a.banner_btn {
   float: right;
 }
@@ -110,6 +104,20 @@ a[href="#contact"] {
   -webkit-box-shadow: -1px 5px 15px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: -1px 5px 15px rgba(0, 0, 0, 0.2);
   box-shadow: -1px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 400px) {
+  .banner_btn {
+    padding: 5px 13px;
+  }
+
+  a.banner_btn {
+    float: left;
+  }
+
+  a[href="#contact"] {
+    float: right;
+  } 
 }
 
 /******** || EXPERIENCE & EDUCATION COMMUNITY ********/
