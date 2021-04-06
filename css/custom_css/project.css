@@ -1,0 +1,48 @@
+/******** || PROJECTS PAGE ********/
+.active {
+  font-weight: bold;
+}
+
+.project-column {
+  padding: 0 5%;
+}
+
+.source-btn {
+  border-radius: 2px;
+  float: right;
+  margin-right: 5%;
+}
+
+span.projects-head {
+  vertical-align: -7px;
+}
+
+ul.projects li {
+  padding-top: 25px;
+  margin-top: 20px;
+  /* font-family: 'Roboto', sans-serif; */
+  font-size: 0.9em;
+  color: var(--color-project-list-text);
+  line-height: 1.7;
+}
+
+.how-it-looks-btn {
+  margin-top: 8px;
+  font-weight: bold;
+  padding-top: 6px !important;
+  letter-spacing: 0.8px;
+  font-size: x-small;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 3px 5px var(--color-how-it-looks-btn-shadow);
+  box-shadow: 0px 3px 5px var(--color-how-it-looks-btn-shadow);
+}
+
+.tech-used {
+  margin-top: 40px;
+  font-size: smaller;
+  line-height: 0.5;
+}
+
+.tech-used p:first-child {
+  font-size: small;
+}

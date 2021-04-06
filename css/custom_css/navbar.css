@@ -5,9 +5,9 @@
 .navbar {
   padding: 0;
   border-bottom: none !important;
-  -webkit-box-shadow: -1px 5px 15px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: -1px 5px 15px rgba(0, 0, 0, 0.15);
-  box-shadow: -1px 5px 15px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: -1px 5px 15px var(--color-navbar-shadow);
+  -moz-box-shadow: -1px 5px 15px var(--color-navbar-shadow);
+  box-shadow: -1px 5px 15px var(--color-navbar-shadow);
 }
 
 a.navbar-brand {
@@ -18,7 +18,7 @@ a.navbar-brand {
 a.navbar-brand span {
   font-size: 1.7rem;
   border: none;
-  color: #182153;
+  color: var(--color-text);
   font-family: "Berkshire Swash", cursive !important;
   letter-spacing: 1.5px;
   padding-left: 10px;
@@ -31,7 +31,7 @@ a.navbar-brand img {
 }
 
 a.navbar-brand:hover {
-  color: #182153;
+  color: var(--color-text);
 }
 
 @media screen and (max-width: 768px) {
@@ -56,7 +56,7 @@ a.navbar-brand:hover {
 
 .menu-icon,
 .menu-close-icon {
-  color: #182153;
+  color: var(--color-text);
   width: 25px;
   /* transform: scale(1.2); */
 }
@@ -69,18 +69,18 @@ a.navbar-brand:hover {
 .nav-link {
   font-size: 1rem;
   padding: 22px 10px !important;
-  color: #182153;
+  color: var(--color-text);
   transition: 0.3s;
   letter-spacing: 1px;
 }
 
 .nav-link:hover {
-  background-color: #182153;
+  background-color: var(--color-text);
   color: white;
 }
 
 .project_active {
-  background-color: #182153;
+  background-color: var(--color-bg);
 }
 
 .project_active .nav-link {
