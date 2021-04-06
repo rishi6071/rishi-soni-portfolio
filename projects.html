@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <!-- meta tags -->
@@ -34,6 +34,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom_css/theme.css" />
     <link rel="stylesheet" href="./css/custom_css/indexStyle.css" />
     <link rel="stylesheet" href="./css/custom_css/navbar.css" />
     <link rel="stylesheet" href="./css/custom_css/preloader.css" />
@@ -44,6 +45,20 @@
 <body>
     <!-- Preloader Start -->
     <div class="loading"></div>
+
+    <!-- Theme Choosing Button Start -->
+    <aside>
+        <div class="theme_box">
+            <img src="./img/icons/settings.svg" class="theme_icon" alt="Settings" />
+            <!-- <div class="theme_opt_box">
+                <hr />
+                <input type="checkbox" class="theme_opt" name="" id="" />
+                <input type="checkbox" class="theme_opt" name="" id="" />
+                <input type="checkbox" class="theme_opt" name="" id="" />
+            </div> -->
+        </div>
+    </aside>
+    <!-- Theme Choosing Button End -->
 
     <!-- Navbar Start -->
     <header>
@@ -91,11 +106,11 @@
 
     <!-- Project Banner Start -->
     <section>
-        <div class="container-fluid mb-2 p-3" id="banner-outer" data-aos="fade-up">
+        <div class="container-fluid mb-2 p-3 banner-outer" data-aos="fade-up">
             <div class="row">
 
-                <div class="col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-11 p-4 tilt-element" data-tilt
-                    data-tilt-axis="x" id="banner-inner">
+                <div class="col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-11 p-4 tilt-element banner-inner" data-tilt
+                    data-tilt-axis="x">
                     <h4 class="font-weight-bold pt-3">PROJECTS</h4>
                 </div>
 
@@ -113,7 +128,7 @@
                 <div class="col-md-6 col-12 project-column mt-5">
                     <hr class="w-100 thematic-break" data-aos="zoom-in" />
                     <h6 class="font-weight-bold" data-aos="zoom-in"><span class="projects-head">REACT Projects</span>
-                        <a href="#" class="btn ripple btn-info btn-sm px-3 source-btn">View Source Code</a>
+                        <a href="#" class="btn ripple btn-sm px-3 source-btn">View Source Code</a>
                     </h6>
                     <hr class="w-100 thematic-break" data-aos="zoom-in" />
                     <ul class="projects px-3" type="square">
@@ -127,7 +142,7 @@
                             API Calls.
                             <br />
                             <a href="https://rishi-weatherapp.netlify.app/" target="_blank"
-                                class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
+                                class="btn ripple btn-sm px-3 how-it-looks-btn">How it Looks</a>
                         </li>
                         <li data-aos="zoom-in">Created the COVID-19 Tracker App using React & Bootstrap-5
                             which shows the Infected, Recovered, and Deaths Count of Patient in the entire world. The
@@ -138,7 +153,7 @@
                             Graph and Bar Chart.
                             <br />
                             <a href="https://rishi-covidstatus.netlify.app/" target="_blank"
-                                class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
+                                class="btn ripple btn-sm px-3 how-it-looks-btn">How it Looks</a>
                         </li>
                         <li data-aos="zoom-in">Created the Google Keep Clone using React & Material-UI Components which
                             provides the service to add Notes with Title & Description and can Delete as per the user's
@@ -147,14 +162,14 @@
                             Browser's LocalStorage is used as Temporary Database.
                             <br />
                             <a href="https://rishi-googlekeepclone.netlify.app/" target="_blank"
-                                class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
+                                class="btn ripple btn-sm px-3 how-it-looks-btn">How it Looks</a>
                         </li>
                         <li data-aos="zoom-in">Created the ToDo List App using React & Material-UI Components which
                             provides the service to add Notes with Title & Description, can Delete a Note, and Clear the
                             Entire Note List as per the user's requirment.
                             <br />
                             <a href="https://github.com/rishi6071/ToDo-React-Material_UI-App" target="_blank"
-                                class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
+                                class="btn ripple btn-sm px-3 how-it-looks-btn">How it Looks</a>
                         </li>
                     </ul>
                     <div class="tech-used px-3" data-aos="zoom-in">
@@ -167,7 +182,7 @@
                 <div class="col-md-6 col-12 project-column mt-5">
                     <hr class="w-100 thematic-break" data-aos="zoom-in" />
                     <h6 class="font-weight-bold" data-aos="zoom-in"><span class="projects-head">HTML Projects</span>
-                        <a href="#" class="btn ripple btn-info btn-sm px-3 source-btn">View Source Code</a>
+                        <a href="#" class="btn ripple btn-sm px-3 source-btn">View Source Code</a>
                     </h6>
                     <hr class="w-100 thematic-break" data-aos="zoom-in" />
                     <ul class="projects px-3" type="square">
@@ -178,7 +193,7 @@
                             Interactivity in the Website.
                             <br />
                             <a href="https://www.isohack.in/" target="_blank"
-                                class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
+                                class="btn ripple btn-sm px-3 how-it-looks-btn">How it Looks</a>
                         </li>
                         <li data-aos="zoom-in">Created the Website prototype in which I have integrated the Payment
                             Gateway Method as per the Task provided by The Spark Foundation.
@@ -187,7 +202,7 @@
                             and Animate on Scroll JavaScript Library for Scolling Animations.
                             <br />
                             <a href="https://rishi-donatetoday.netlify.app/"
-                                class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
+                                class="btn ripple btn-sm px-3 how-it-looks-btn">How it Looks</a>
                         </li>
                         <li data-aos="zoom-in">Created the Website prototype in which I have integrated the Social Media
                             Login Methods such as Google and Facebook as per the Task provided by The Spark Foundation.
@@ -197,7 +212,7 @@
                             and Animate on Scroll JavaScript Library for Scolling Animations.
                             <br />
                             <a href="https://tsf-social-media-integration.web.app/"
-                                class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
+                                class="btn ripple btn-sm px-3 how-it-looks-btn">How it Looks</a>
                         </li>
                         <li data-aos="zoom-in" data-aos-delay="400">Created a Project for Technocolabs Information
                             Technology in which I have worked
@@ -209,21 +224,21 @@
                             testimonials, their recent activities, their work etc...
                             <br />
                             <a href="https://technocolabs.tech/" target="_blank"
-                                class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
+                                class="btn ripple btn-sm px-3 how-it-looks-btn">How it Looks</a>
                         </li>
                         <li data-aos="zoom-in">Create an Snake Game using JavaScript in which first it will ask for the
                             name of
                             player for Greeting, will count Score of player, blinking of eyes of Snake, can set
                             difficulty as well will increase the speed of Snake.<br />
                             <a href="https://rishi6071.github.io/hungrysnake/" target="_blank"
-                                class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
+                                class="btn ripple btn-sm px-3 how-it-looks-btn">How it Looks</a>
                         </li>
                         <!-- <li data-aos="zoom-in">Created my own portfolio in which I have provided all the necessary
                             information about me
                             such as Experience, Education, Skills, Contact information and Projects
                             those Ihave created.<br />
                             <a href="https://rishisoni-portfolio.web.app/" target="_blank"
-                                class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
+                                class="btn ripple btn-sm px-3 how-it-looks-btn">How it Looks</a>
                         </li> -->
                     </ul>
                     <div class="tech-used px-3" data-aos="zoom-in">
@@ -237,7 +252,7 @@
                     <hr class="w-100 thematic-break" data-aos="zoom-in" />
                     <h6 class="font-weight-bold" data-aos="zoom-in"><span class="projects-head">Responsive Website
                             Templates</span>
-                        <a href="#" class="btn ripple btn-info btn-sm px-3 source-btn">View Source Code</a>
+                        <a href="#" class="btn ripple btn-sm px-3 source-btn">View Source Code</a>
                     </h6>
                     <hr class="w-100 thematic-break" data-aos="zoom-in" />
                     <ul class="projects px-3" type="square">
@@ -250,7 +265,7 @@
                             It has been tested on 20+ different resolution devices.
                             <br />
                             <a href="https://rishi6071.github.io/allaboutus/" target="_blank"
-                                class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
+                                class="btn ripple btn-sm px-3 how-it-looks-btn">How it Looks</a>
                         </li>
                         <li data-aos="zoom-in">Created an Online Books Store Mobile Responsive Website Template. There
                             are about
@@ -260,13 +275,13 @@
                             as per your needs, i.e., as a e-commerce site or
                             as a general customer support site etc. <br />
                             <a href="https://rishi6071.github.io/bethebest/" target="_blank"
-                                class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
+                                class="btn ripple btn-sm px-3 how-it-looks-btn">How it Looks</a>
                         </li>
                         <li data-aos="zoom-in">Created a Coffee Shop Webpage using Materialize CSS Framework in which
                             beautyful
                             coffee cards, parallax and lot more stuff..<br />
                             <a href="https://rishi6071.github.io/coffeeking/" target="_blank"
-                                class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Looks</a>
+                                class="btn ripple btn-sm px-3 how-it-looks-btn">How it Looks</a>
                         </li>
                     </ul>
                     <div class="tech-used px-3" data-aos="zoom-in">
@@ -279,7 +294,7 @@
                 <div class="col-md-6 col-12 project-column mt-5">
                     <hr class="w-100 thematic-break" data-aos="zoom-in" />
                     <h6 class="font-weight-bold" data-aos="zoom-in"><span class="projects-head">C, C++ Projects</span>
-                        <a href="#" class="btn ripple btn-info btn-sm px-3 source-btn">View Source Code</a>
+                        <a href="#" class="btn ripple btn-sm px-3 source-btn">View Source Code</a>
                     </h6>
                     <hr class="w-100 thematic-break" data-aos="zoom-in" />
                     <ul class="projects px-3" type="square">
@@ -292,17 +307,17 @@
                                 Delete File, Read File, Search Data and Get Results.
                             </span>
                             <br />
-                            <a href="#" class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Works</a>
+                            <a href="#" class="btn ripple btn-sm px-3 how-it-looks-btn">How it Works</a>
                         </li>
                         <li data-aos="zoom-in">Created a Guess Game Program in C Language. In this program, user plays a
                             game with the system that system generate a random number in b/w specific
                             range and allow 3 chances to user to Guess the Number.<br />
-                            <a href="#" class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Works</a>
+                            <a href="#" class="btn ripple btn-sm px-3 how-it-looks-btn">How it Works</a>
                         </li>
                         <li data-aos="zoom-in">Created a Calsi (Advanced Calculator). In this project, there are about
                             50+ calculations that user can be perform. When user chooses a Operation,
                             system provides the formula and access to put values in that formula.<br />
-                            <a href="#" class="btn ripple btn-sm btn-info px-3 how-it-looks-btn">How it Works</a>
+                            <a href="#" class="btn ripple btn-sm px-3 how-it-looks-btn">How it Works</a>
                         </li>
                     </ul>
                     <div class="tech-used px-3" data-aos="zoom-in">

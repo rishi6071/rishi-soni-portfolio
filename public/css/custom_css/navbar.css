@@ -76,7 +76,7 @@ a.navbar-brand:hover {
 
 .nav-link:hover {
   background-color: var(--color-text);
-  color: white;
+  color: var(--color-navlink-active);
 }
 
 .project_active {
@@ -85,14 +85,14 @@ a.navbar-brand:hover {
 
 .project_active .nav-link {
   letter-spacing: 1.5px;
-  color: white !important;
+  color: var(--color-navlink-active) !important;
 }
 
 @media screen and (max-width: 767px) {
   .navbar {
     padding: 15px 10px;
   }
-  
+
   .nav-item {
     text-align: center !important;
   }
@@ -120,7 +120,7 @@ div#profilePic {
 
 #profilePic .modal-title {
   font-family: "Roboto", sans-serif !important;
-  color: white;
+  color: var(--color-navlink-active);
   font-variant: small-caps;
   letter-spacing: 1.5px;
 }

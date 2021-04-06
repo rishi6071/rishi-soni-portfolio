@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <!-- meta tags -->
@@ -34,6 +34,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom_css/theme.css" />
     <link rel="stylesheet" href="./css/custom_css/indexStyle.css" />
     <link rel="stylesheet" href="./css/custom_css/navbar.css" />
     <link rel="stylesheet" href="./css/custom_css/preloader.css" />
@@ -44,6 +45,20 @@
 <body>
     <!-- Preloader Start -->
     <div class="loading"></div>
+
+    <!-- Theme Choosing Button Start -->
+    <aside>
+        <div class="theme_box">
+            <img src="./img/icons/settings.svg" class="theme_icon" alt="Settings" />
+            <!-- <div class="theme_opt_box">
+                <hr />
+                <input type="checkbox" class="theme_opt" name="" id="" />
+                <input type="checkbox" class="theme_opt" name="" id="" />
+                <input type="checkbox" class="theme_opt" name="" id="" />
+            </div> -->
+        </div>
+    </aside>
+    <!-- Theme Choosing Button End -->
 
     <!-- Navbar Start -->
     <header>
@@ -111,11 +126,11 @@
 
     <!-- Banner Start -->
     <section>
-        <div class="container-fluid mb-2 py-md-4 py-3" id="banner-outer" data-aos="fade-up">
+        <div class="container-fluid mb-2 py-md-4 py-3 banner-outer" data-aos="fade-up">
             <div class="row">
 
-                <div class="col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-11 p-4 tilt-element" data-tilt
-                    data-tilt-axis="x" id="banner-inner">
+                <div class="col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-11 p-4 tilt-element banner-inner" data-tilt
+                    data-tilt-axis="x">
                     <h4 class="font-weight-bold pb-2">Hello World! <span id="my_name_box">This is <span
                                 class="myName">Rishi Soni</span></span>
                     </h4>
@@ -279,7 +294,7 @@
 
     <!-- Education Start -->
     <section>
-        <div class="container-fluid" style="background-color: #e0e0e0;">
+        <div class="container-fluid section-bg">
             <h4 class="section_heading" data-aos="zoom-in" id="education">Education</h4>
             <hr class="w-100 thematic-break" data-aos="zoom-in" />
             <div class="container pb-3">
@@ -340,13 +355,16 @@
                     <div class="tech-field tilt-element float" title="HyperText Markup Language (v5)" data-tilt
                         data-tilt-scale="1.08" data-aos="zoom-in">
                         <p class="pl-4"><img src="./img/tech_icons/html-5.png" alt="HTML-5" loading="lazy" />
-                            <span>HTML-5</span></p>
+                            <span>HTML-5</span>
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-12 mt-2" title="Cascading Stylesheet (v3)">
-                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-scale="1.08" data-aos="zoom-in">
+                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-scale="1.08"
+                        data-aos="zoom-in">
                         <p class="pl-4"><img src="./img/tech_icons/css.png" alt="CSS-3" loading="lazy" />
-                            <span>CSS-3</span></p>
+                            <span>CSS-3</span>
+                        </p>
                     </div>
                 </div>
 
@@ -354,11 +372,13 @@
                     <div class="tech-field tilt-element float" title="Bootstrap CSS Framework (v4)" data-tilt
                         data-tilt-scale="1.08" data-aos="zoom-in">
                         <p class="pl-4"><img src="./img/tech_icons/bootstrap4.png" alt="Bootstrap_4_5" loading="lazy" />
-                            <span>Bootstrap 4 & 5</span></p>
+                            <span>Bootstrap 4 & 5</span>
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-12 mt-2" title="JavaScript (ES6)">
-                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-scale="1.08" data-aos="zoom-in">
+                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-scale="1.08"
+                        data-aos="zoom-in">
                         <p class="pl-4"><img src="./img/tech_icons/javascript.png" alt="JS" loading="lazy" />
                             <span>JavaScript</span>
                         </p>
@@ -372,9 +392,11 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-12 mt-2" title="jQuery">
-                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-scale="1.08" data-aos="zoom-in">
+                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-scale="1.08"
+                        data-aos="zoom-in">
                         <p class="pl-4"><img src="./img/tech_icons/jQuery.png" alt="jQuery" loading="lazy" />
-                            <span>jQuery</span></p>
+                            <span>jQuery</span>
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-12 mt-2" title="Java Standard Edition (JSE)">
@@ -384,7 +406,8 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-12 mt-2" title="Structured Query Language">
-                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-scale="1.08" data-aos="zoom-in">
+                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-scale="1.08"
+                        data-aos="zoom-in">
                         <p class="pl-4"><img src="./img/tech_icons/sql.png" alt="SQL" loading="lazy" /> <span>SQL</span>
                         </p>
                     </div>
@@ -397,8 +420,10 @@
                 </div>
 
                 <div class="col-md-6 col-12 mt-2" title="Git - Version Control System">
-                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-scale="1.08" data-aos="zoom-in">
-                        <p class="pl-4"><img src="./img/tech_icons/git.png" alt="Git" loading="lazy" /> <span>Git - Github</span></p>
+                    <div class="tech-field tilt-element float-center" data-tilt data-tilt-scale="1.08"
+                        data-aos="zoom-in">
+                        <p class="pl-4"><img src="./img/tech_icons/git.png" alt="Git" loading="lazy" /> <span>Git -
+                                Github</span></p>
                     </div>
                 </div>
             </div>
@@ -408,7 +433,7 @@
 
     <!-- Community Start -->
     <section>
-        <div class="container-fluid" style="background-color: #e0e0e0;">
+        <div class="container-fluid section-bg">
             <h4 class="section_heading" data-aos="zoom-in" id="community">Community</h4>
             <h6 class="text-center" data-aos="zoom-in"><small>In Which i am Working / Worked</small></h6>
             <hr class="w-100 thematic-break" data-aos="zoom-in" />
@@ -462,7 +487,7 @@
     <!-- Contact Me Start -->
     <section>
         <div id="contact"></div>
-        <div class="container-fluid pb-4" style="background-color: #e0e0e0;">
+        <div class="container-fluid pb-4 section-bg">
             <h4 class="section_heading" data-aos="zoom-in">Contact Me</h4>
             <h6 class="text-center" data-aos="zoom-in"><small>I'll Revert back to you within 24 Hours</small></h6>
             <hr class="w-100 thematic-break" data-aos="zoom-in" />
@@ -492,7 +517,8 @@
                                     placeholder="Message" required></textarea>
                             </div>
                             <div class="form-group" data-aos="zoom-in">
-                                <input type="submit" value="SUBMIT" class="btn btn-primary pt-2 btn-block ripple" />
+                                <input type="submit" value="SUBMIT"
+                                    class="btn pt-2 btn-block ripple contact_submit_btn" />
                             </div>
                         </form>
                     </div>

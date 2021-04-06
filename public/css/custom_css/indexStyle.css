@@ -3,44 +3,12 @@
 
 /******** || GENERAL STYLES ********/
 
-:root {
-  --color-select: white;
-  --color-select-bg: grey;
-
-  --color-scrollbar-track: #f1f1f1;
-  --color-scrollbar-thumb: #888;
-  --color-scrollbar-thumb-hover: #555;
-
-  --color-thematic-break: #182153;
-
-  --color-text: #182153;
-  --color-bg: #182153;
-  --color-bg-shade: lightgrey;
-  --color-myname: #9c27b0;
-
-  --color-banner-btn-text: lightgrey;
-  --color-banner-btn-shadow: -1px 5px 15px rgba(0, 0, 0, 0.2);
-
-  --color-toast-border: rebeccapurple;
-  --color-toast-bg: 0px 0px 10px rgba(0, 0, 0, 0.5);
-
-  --color-footer-bg: dimgray;
-  --color-footer-text: gainsboro;
-
-  /* Navbar */
-  --color-navbar-shadow: rgba(0, 0, 0, 0.15);
-
-  /* Project */
-  --color-project-list-text: rgba(24, 33, 83, 0.8);
-  --color-how-it-looks-btn-shadow: lightgrey;
-}
-
 * {
   padding: 0;
   margin: 0;
   /* font-family: 'Josefin Sans', sans-serif; */
   font-family: "Roboto", sans-serif !important;
-  color: #182153;
+  color: var(--color-universal);
   letter-spacing: 0.5px;
   box-sizing: border-box;
 }
@@ -58,6 +26,11 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: var(--color-body-bg);
+}
+
+.section-bg {
+  background-color: var(--color-section-bg);
 }
 
 /******** || SCROLLBAR ********/
@@ -92,18 +65,18 @@ body {
 }
 
 /******** || BANNER ********/
-div#banner-outer {
-  background: #182153;
+div.banner-outer {
+  background: var(--color-bg);
 }
 
-div#banner-inner {
+div.banner-inner {
   z-index: 1;
   margin: auto;
   background-color: var(--color-bg-shade);
   text-align: center;
 }
 
-div#banner-inner p {
+div.banner-inner p {
   line-height: 1.9;
 }
 
@@ -296,14 +269,14 @@ textarea {
   padding-top: 8px;
 }
 
-form#msgeForm .btn-primary {
+form#msgeForm .contact_submit_btn {
   background-color: var(--color-bg);
   color: white;
   transition: 0.5s;
   letter-spacing: 1px;
 }
 
-.btn-primary:hover {
+.contact_submit_btn:hover {
   -webkit-box-shadow: var(--color-banner-btn-shadow);
   -moz-box-shadow: var(--color-banner-btn-shadow);
   box-shadow: var(--color-banner-btn-shadow);
