@@ -39,7 +39,6 @@
     <link rel="stylesheet" href="./css/custom_css/navbar.css" />
     <link rel="stylesheet" href="./css/custom_css/preloader.css" />
     <link rel="stylesheet" href="./css/custom_css/ripple.css">
-
 </head>
 
 <body>
@@ -48,15 +47,16 @@
 
     <!-- Theme Choosing Button Start -->
     <aside>
-        <div class="theme_box">
+        <!-- <div class="theme_box">
             <img src="./img/icons/settings.svg" class="theme_icon" alt="Settings" />
-            <!-- <div class="theme_opt_box">
+            <div class="theme_opt_box">
                 <hr />
-                <input type="checkbox" class="theme_opt" name="" id="" />
-                <input type="checkbox" class="theme_opt" name="" id="" />
-                <input type="checkbox" class="theme_opt" name="" id="" />
-            </div> -->
-        </div>
+                <div style="background-color: blue;" class="color_opt">Y</div>
+                <div style="background-color: red;" class="color_opt"></div>
+                <div style="background-color: yellow;" class="color_opt"></div>
+                <div style="background-color: green;" class="color_opt"></div>
+            </div>
+        </div> -->
     </aside>
     <!-- Theme Choosing Button End -->
 
@@ -141,12 +141,12 @@
                         When I am not working, I enjoy swimming, and Listening Music in my free time.
                     </p>
                     <div class="row">
-                        <div class="col">
+                        <div class="col-6">
                             <a href="./docs/Rishi_Soni.pdf" class="btn ripple mt-sm-0 mt-2 banner_btn" download>Download
                                 Cv
                             </a>
                         </div>
-                        <div class="col">
+                        <div class="col-6">
                             <a href="#contact" class="btn ripple mt-sm-0 mt-2 banner_btn">Contact Me</a>
                         </div>
                     </div>
@@ -584,7 +584,9 @@
     <!-- Footer Start -->
     <footer class="py-1 pt-3 text-center">
         <div class="container-fluid">
-            <p>Copyright © 2020 by Rishi Soni</p>
+            <p>Copyright © <span id="copyright_year"></span> by 
+                <span id="owner">Rishi Soni</span>
+            </p>
         </div>
     </footer>
     <!-- Footer End -->

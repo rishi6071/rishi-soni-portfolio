@@ -88,7 +88,7 @@ html[data-theme="dark"] {
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
   background-color: white;
-  cursor: pointer;
+  /* cursor: pointer; */
   -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
@@ -105,4 +105,12 @@ html[data-theme="dark"] {
 .theme_opt {
     display: block;
     margin: 5px auto;
+}
+
+.color_opt {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin: 8px auto;
+  border: 1px solid grey;
 }
