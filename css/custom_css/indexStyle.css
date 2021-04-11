@@ -85,6 +85,11 @@ div.banner-inner p {
   color: var(--color-myname);
 }
 
+div.banner-inner .padding-0 {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
 .banner_btn {
   border-radius: 3px;
   letter-spacing: 1.5px;
@@ -112,7 +117,7 @@ a[href="#contact"] {
 
 @media screen and (max-width: 400px) {
   .banner_btn {
-    padding: 5px 13px;
+    padding: 5px 10px;
   }
 
   a.banner_btn {
