@@ -25,6 +25,7 @@
 
 span.projects-head {
   vertical-align: -7px;
+  font-weight: bold !important;
 }
 
 ul.projects li {
