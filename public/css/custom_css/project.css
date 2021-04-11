@@ -31,9 +31,16 @@ ul.projects li {
   padding-top: 25px;
   margin-top: 20px;
   /* font-family: 'Roboto', sans-serif; */
-  font-size: 0.9em;
+  font-size: 0.85em;
   color: var(--color-project-list-text);
   line-height: 1.7;
+  text-align: justify;
+}
+
+@media screen and (max-width: 576px) {
+  ul.projects li {
+    font-size: 0.95em;
+  }
 }
 
 .how-it-looks-btn {

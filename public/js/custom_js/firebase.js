@@ -11,7 +11,4 @@
   
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-
-  // For Current Copyright Year in Footer
-  document.querySelector('#copyright_year').innerText = new Date().getFullYear();
 })()

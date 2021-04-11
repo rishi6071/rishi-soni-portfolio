@@ -15,7 +15,8 @@ a.navbar-brand {
   align-items: center;
 }
 
-a.navbar-brand span {
+a.navbar-brand span,
+.offcanvas .offcanvas-title {
   font-size: 1.7rem;
   border: none;
   color: var(--color-text);
@@ -66,7 +67,8 @@ a.navbar-brand:hover {
   transform: scale(0.8);
 }
 
-.nav-link {
+.nav-link,
+.offcanvas .nav-link {
   font-size: 1rem;
   padding: 22px 10px !important;
   color: var(--color-text);
@@ -129,11 +131,83 @@ div#profilePic {
   background: rgba(0, 0, 0, 0.4);
 }
 
-#profilePic button.close {
+#profilePic .btn-close {
+  transform: scale(1.3);
+  padding-top: 0;
   outline: none;
+}
+
+#profilePic .btn-close:focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+#profilePic .btn-close span {
+  transform: translateY(-10px) scale(1.5) !important;
 }
 
 #profilePic .profile_pic {
   width: 100%;
   height: auto;
+}
+
+/* *** Mobile SideBar Menu */
+.offcanvas {
+  text-align: center;
+  height: 100vh;
+}
+
+@media screen and (max-width: 575px) {
+  .offcanvas {
+    width: 100%;
+  }
+}
+
+.offcanvas .btn-close {
+  -webkit-transform: translateX(-10px) translateY(11px);
+  -ms-transform: translateX(-10px) translateY(11px);
+  -moz-transform: translateX(-10px) translateY(11px);
+  transform: translateX(-10px) translateY(11px);
+}
+
+.offcanvas img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.offcanvas .active {
+  background-color: var(--color-bg);
+  color: white !important;
+}
+
+.offcanvas ul {
+  margin-top: 35px !important;
+}
+
+.offcanvas .owner_name,
+.offcanvas .owner_designation {
+  color: var(--color-text);
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.offcanvas .owner_name {
+  margin-top: 15px;
+}
+
+.offcanvas .owner_designation {
+  font-style: italic;
+}
+
+.mobile_view_menu {
+  list-style-type: none;
+}
+
+.offcanvas-body a {
+  color: dimgrey;
 }

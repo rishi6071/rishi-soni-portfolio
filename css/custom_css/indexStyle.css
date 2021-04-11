@@ -126,8 +126,8 @@ a[href="#contact"] {
 
 /******** || EXPERIENCE & EDUCATION COMMUNITY ********/
 .thematic-break {
-  border-bottom: 0.5px solid var(--color-thematic-break) !important;
-  opacity: 0.5;
+  border-bottom: 0.7px dashed var(--color-thematic-break) !important;
+  opacity: 0.5 !important;
 }
 /* 
 .thematic-position {
@@ -266,21 +266,36 @@ form#msgeForm textarea {
 
 input,
 textarea {
-  border-radius: 0 !important;
+  border-radius: 3px !important;
   padding-top: 8px;
 }
 
-form#msgeForm .contact_submit_btn {
+form#msgeForm .contact_submit_btn,
+form#msgeForm .contact_reset_btn {
   background-color: var(--color-bg);
   color: white;
+  width: 100%;
   transition: 0.5s;
   letter-spacing: 1px;
+  border-radius: 3px !important;
 }
 
-.contact_submit_btn:hover {
+form#msgeForm .contact_reset_btn {
+  border: 1px solid var(--color-text);
+  color: var(--color-text);
+  background-color: transparent;
+}
+
+form#msgeForm .contact_submit_btn:hover,
+form#msgeForm .contact_reset_btn:hover {
   -webkit-box-shadow: var(--color-banner-btn-shadow);
   -moz-box-shadow: var(--color-banner-btn-shadow);
   box-shadow: var(--color-banner-btn-shadow);
+}
+
+form#msgeForm .contact_reset_btn:hover {
+  background-color: var(--color-bg);
+  color: white;
 }
 
 .contact-details {
