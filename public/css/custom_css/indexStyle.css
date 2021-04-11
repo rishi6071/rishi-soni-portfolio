@@ -85,6 +85,11 @@ div.banner-inner p {
   color: var(--color-myname);
 }
 
+div.banner-inner .padding-0 {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
 .banner_btn {
   border-radius: 3px;
   letter-spacing: 1.5px;
@@ -112,7 +117,7 @@ a[href="#contact"] {
 
 @media screen and (max-width: 400px) {
   .banner_btn {
-    padding: 5px 13px;
+    padding: 5px 10px;
   }
 
   a.banner_btn {
@@ -308,12 +313,18 @@ a.contact-link {
 
 @media screen and (max-width: 575px) {
   ::placeholder {
-    font-size: smaller;
+    font-size: medium;
   }
 
   form#msgeForm input,
   form#msgeForm textarea {
+    font-size: medium;
+  }
+
+  form#msgeForm .contact_submit_btn,
+  form#msgeForm .contact_reset_btn {
     font-size: smaller;
+    padding-top: 7px !important;
   }
 }
 
@@ -324,8 +335,9 @@ a.contact-link {
   right: 20px;
   width: 320px;
   height: 50px;
-  display: flex;
-  align-items: center;
+  background-color: #D4EDDA;
+  padding-top: 10px;
+  text-align: center;
   border: 1px solid var(--color-toast-border);
   -webkit-box-shadow: var(--color-toast-bg);
   -ms-box-shadow: var(--color-toast-bg);
