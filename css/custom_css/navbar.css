@@ -185,7 +185,7 @@ div#profilePic {
 }
 
 .offcanvas ul {
-  margin-top: 35px !important;
+  margin-top: 15px !important;
 }
 
 .offcanvas .owner_name,
@@ -198,6 +198,10 @@ div#profilePic {
 
 .offcanvas .owner_name {
   margin-top: 15px;
+}
+
+.offcanvas .nav-link {
+  padding: 15px 10px !important;
 }
 
 .offcanvas .owner_designation {
