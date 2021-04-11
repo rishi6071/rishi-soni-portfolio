@@ -256,7 +256,7 @@ a.projectWeb:hover {
 
 /******** || CONTACT ME ********/
 ::placeholder {
-  font-size: small;
+  font-size: smaller;
 }
 
 .contact_box {
@@ -266,7 +266,7 @@ a.projectWeb:hover {
 
 form#msgeForm input,
 form#msgeForm textarea {
-  font-size: small;
+  font-size: smaller;
 }
 
 input,
@@ -283,6 +283,8 @@ form#msgeForm .contact_reset_btn {
   transition: 0.5s;
   letter-spacing: 1px;
   border-radius: 3px !important;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 form#msgeForm .contact_reset_btn {

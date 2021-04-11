@@ -38,12 +38,6 @@ ul.projects li {
   text-align: justify;
 }
 
-@media screen and (max-width: 576px) {
-  ul.projects li {
-    font-size: 0.95em;
-  }
-}
-
 .how-it-looks-btn {
   margin-top: 8px;
   font-weight: bold;
@@ -70,4 +64,18 @@ ul.projects li {
 
 .tech-used p:first-child {
   font-size: small;
+}
+
+.tech-used p:last-child {
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 576px) {
+  ul.projects li {
+    font-size: 0.95em;
+  }
+
+  #res_web_box {
+    display: none;
+  }
 }
