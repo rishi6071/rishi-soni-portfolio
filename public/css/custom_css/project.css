@@ -30,7 +30,7 @@ span.projects-head {
 
 ul.projects li {
   padding-top: 20px;
-  margin-top: 20px;
+  margin-top: 15px;
   /* font-family: 'Roboto', sans-serif; */
   font-size: 0.85em;
   color: var(--color-project-list-text);
