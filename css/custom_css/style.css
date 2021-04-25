@@ -81,7 +81,8 @@ div.banner-inner p {
   line-height: 1.9;
 }
 
-.myName {
+#my_name_box span {
+  font-weight: 600 !important;
   color: var(--color-myname);
 }
 
@@ -98,6 +99,9 @@ div.banner-inner .padding-0 {
   padding: 5px 20px;
   font-size: medium;
   font-variant: small-caps;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 a.banner_btn {
@@ -109,6 +113,9 @@ a[href="#contact"] {
 }
 
 .banner_btn:hover {
+  -webkit-transform: translateY(-3px) scale(1.02);
+  -moz-transform: translateY(-3px) scale(1.02);
+  transform: translateY(-3px) scale(1.02);
   color: var(--color-banner-btn-text);
   -webkit-box-shadow: var(--color-banner-btn-shadow);
   -moz-box-shadow: var(--color-banner-btn-shadow);
@@ -126,6 +133,10 @@ a[href="#contact"] {
 
   a[href="#contact"] {
     float: right;
+  }
+
+  #my_name_box {
+    height: 35px;
   }
 }
 
@@ -244,13 +255,17 @@ a.projectWeb:hover {
 
 @media screen and (max-width: 576px) {
   .tech-field {
-    width: 85%;
+    width: 90%;
+  }
+  #skills + div .padding-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
 
 .tech-field img {
   border-radius: 2px;
-  height: 27px;
+  height: auto;
   width: 27px;
 }
 
@@ -285,6 +300,9 @@ form#msgeForm .contact_reset_btn {
   border-radius: 3px !important;
   padding-top: 4px;
   padding-bottom: 4px;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 form#msgeForm .contact_reset_btn {
@@ -295,6 +313,9 @@ form#msgeForm .contact_reset_btn {
 
 form#msgeForm .contact_submit_btn:hover,
 form#msgeForm .contact_reset_btn:hover {
+  -webkit-transform: translateY(-3px) scale(1.02);
+  -moz-transform: translateY(-3px) scale(1.02);
+  transform: translateY(-3px) scale(1.02);
   -webkit-box-shadow: var(--color-banner-btn-shadow);
   -moz-box-shadow: var(--color-banner-btn-shadow);
   box-shadow: var(--color-banner-btn-shadow);
@@ -307,6 +328,10 @@ form#msgeForm .contact_reset_btn:hover {
 
 .contact-details {
   line-height: 0.4;
+}
+
+.contact-details h5 {
+  font-weight: 600 !important;
 }
 
 a.contact-link {
@@ -337,7 +362,7 @@ a.contact-link {
   right: 20px;
   width: 320px;
   height: 50px;
-  background-color: #D4EDDA;
+  background-color: #d4edda;
   padding-top: 10px;
   text-align: center;
   border: 1px solid var(--color-toast-border);

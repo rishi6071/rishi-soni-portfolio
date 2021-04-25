@@ -7,6 +7,11 @@
   padding: 0 5%;
 }
 
+.projects_head {
+  font-weight: bold !important;
+  letter-spacing: 1.5px;
+}
+
 .source-btn {
   border-radius: 2px;
   float: right;
@@ -36,6 +41,20 @@ ul.projects li {
   color: var(--color-project-list-text);
   line-height: 1.7;
   text-align: justify;
+}
+
+.source-btn,
+.how-it-looks-btn {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.source-btn:hover,
+.how-it-looks-btn:hover {
+  -webkit-transform: translateY(-3px) scale(1.02);
+  -moz-transform: translateY(-3px) scale(1.02);
+  transform: translateY(-3px) scale(1.02);
 }
 
 .how-it-looks-btn {
