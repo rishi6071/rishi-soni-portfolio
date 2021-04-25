@@ -122,6 +122,12 @@ a[href="#contact"] {
   box-shadow: var(--color-banner-btn-shadow);
 }
 
+@media screen and (max-width: 576px) {
+  #my_name_box {
+    height: 30px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .banner_btn {
     padding: 5px 10px;
@@ -133,10 +139,6 @@ a[href="#contact"] {
 
   a[href="#contact"] {
     float: right;
-  }
-
-  #my_name_box {
-    height: 35px;
   }
 }
 
@@ -256,10 +258,10 @@ a.projectWeb:hover {
 @media screen and (max-width: 576px) {
   .tech-field {
     width: 90%;
-  }
+ }
   #skills + div .padding-0 {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    padding-left: 3px !important;
+    padding-right: 3px !important;
   }
 }
 

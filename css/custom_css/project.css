@@ -17,7 +17,7 @@
   float: right;
   letter-spacing: 1px;
   margin-right: 5%;
-  background-color: #182153;
+  background-color: var(--color-universal);
   color: rgba(255, 255, 255, 0.87);
 }
 
@@ -64,7 +64,7 @@ ul.projects li {
   letter-spacing: 1.5px;
   font-size: x-small;
   border-radius: 2px;
-  background-color: #182153;
+  background-color: var(--color-universal);
   color: rgba(255, 255, 255, 0.87);
 }
 
