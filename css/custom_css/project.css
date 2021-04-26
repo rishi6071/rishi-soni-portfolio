@@ -38,7 +38,6 @@ ul.projects li {
   margin-top: 15px;
   /* font-family: 'Roboto', sans-serif; */
   font-size: 0.85em;
-  color: var(--color-project-list-text);
   line-height: 1.7;
   text-align: justify;
 }

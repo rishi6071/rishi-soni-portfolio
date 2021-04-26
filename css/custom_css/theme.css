@@ -5,7 +5,7 @@
   position: fixed;
   top: 100px;
   right: 0;
-  z-index: 1;
+  z-index: 10;
   padding: 10px 11px;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
@@ -21,6 +21,8 @@
   height: auto;
   display: block;
   margin: auto;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
   transform: scale(0.9);
   cursor: pointer;
 }
@@ -47,9 +49,9 @@
 
 .color_opt:hover {
   cursor: pointer;
-  /* -webkit-box-shadow: 0px 0px 4px rgb(82, 80, 80);
+  -webkit-box-shadow: 0px 0px 4px rgb(82, 80, 80);
   -moz-box-shadow: 0px 0px 4px rgb(82, 80, 80);
-  box-shadow: 0px 0px 4px rgb(82, 80, 80); */
+  box-shadow: 0px 0px 4px rgb(82, 80, 80);
 }
 
 /**** || DarkBlue Theme */
@@ -87,7 +89,6 @@ html[data-theme="darkblue"] {
   --color-navlink-active: white;
 
   /* Project */
-  --color-project-list-text: rgba(24, 33, 83, 0.8);
   --color-how-it-looks-btn-shadow: 0px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
@@ -126,7 +127,6 @@ html[data-theme="cyan"] {
   --color-navlink-active: white;
 
   /* Project */
-  --color-project-list-text: rgba(24, 33, 83, 0.8);
   --color-how-it-looks-btn-shadow: 0px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
@@ -165,7 +165,6 @@ html[data-theme="blueGrey"] {
   --color-navlink-active: white;
 
   /* Project */
-  --color-project-list-text: rgba(24, 33, 83, 0.8);
   --color-how-it-looks-btn-shadow: 0px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
@@ -204,6 +203,43 @@ html[data-theme="grey"] {
   --color-navlink-active: white;
 
   /* Project */
-  --color-project-list-text: rgba(24, 33, 83, 0.8);
+  --color-how-it-looks-btn-shadow: 0px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+/**** || Chocolate Theme */
+html[data-theme="chocolate"] {
+  --color-universal: #3e2723;
+  --color-body-bg: white;
+  --color-section-bg: #e0e0e0;
+
+  --color-select: white;
+  --color-select-bg: grey;
+
+  --color-scrollbar-track: #f1f1f1;
+  --color-scrollbar-thumb: #888;
+  --color-scrollbar-thumb-hover: #555;
+
+  --color-thematic-break: #3e2723;
+
+  --color-text: #3e2723;
+  --color-bg: #3e2723;
+  --color-bg-shade: lightgrey;
+  --color-myname: #9c27b0;
+
+  --color-banner-text: #3e2723;
+  --color-banner-btn-text: lightgrey;
+  --color-banner-btn-shadow: 0px 1px 4px rgba(0, 0, 0, 0.7);
+
+  --color-toast-border: rebeccapurple;
+  --color-toast-bg: 0px 1px 4px rgba(0, 0, 0, 0.7);
+
+  --color-footer-bg: dimgray;
+  --color-footer-text: gainsboro;
+
+  /* Navbar */
+  --color-navbar-shadow: rgba(0, 0, 0, 0.15);
+  --color-navlink-active: white;
+
+  /* Project */
   --color-how-it-looks-btn-shadow: 0px 1px 4px rgba(0, 0, 0, 0.7);
 }
