@@ -111,45 +111,58 @@ a.navbar-brand:hover {
   }
 }
 
-/******** || Profile Pic Modal ********/
-div#profilePic {
+/******** || Profile Pic Modal & (Specific Project Showcasing) ********/
+div.custom_modal {
   background: rgba(0, 0, 0, 0.4) !important;
 }
 
-#profilePic .modal-header {
-  border-bottom: 1px solid rebeccapurple !important;
+.custom_modal .modal-header {
+  border-bottom: none;
 }
 
-#profilePic .modal-title {
+.custom_modal .modal-body {
+  padding: 1px;
+}
+
+.custom_modal .modal-title {
   font-family: "Roboto", sans-serif !important;
   color: var(--color-navlink-active);
+  font-weight: 500;
   font-variant: small-caps;
-  letter-spacing: 1.5px;
+  letter-spacing: 2.5px;
+  -webkit-text-shadow: 0.5px 0.5px 2px rebeccapurple;
+  -moz-text-shadow: 0.5px 0.5px 2px rebeccapurple;
+  text-shadow: 0.5px 0.5px 2px rebeccapurple;
 }
 
-#profilePic .modal-content {
+.custom_modal .modal-content {
   background: rgba(0, 0, 0, 0.4);
 }
 
-#profilePic .btn-close {
+.custom_modal .btn-close {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
   transform: scale(1.3);
   padding-top: 0;
   outline: none;
 }
 
-#profilePic .btn-close:focus {
+.custom_modal .btn-close:focus {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
 
-#profilePic .btn-close span {
+.custom_modal .btn-close span {
+  -webkit-transform: translateY(-10px) scale(1.5) !important;
+  -moz-transform: translateY(-10px) scale(1.5) !important;
   transform: translateY(-10px) scale(1.5) !important;
 }
 
-#profilePic .profile_pic {
+.custom_modal .profile_pic {
   width: 100%;
   height: auto;
+  border-radius: 3px;
 }
 
 /* *** Mobile SideBar Menu */
