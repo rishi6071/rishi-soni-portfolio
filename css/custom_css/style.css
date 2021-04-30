@@ -259,10 +259,21 @@ a.projectWeb:hover {
 @media screen and (max-width: 576px) {
   .tech-field {
     width: 95%;
- }
+  }
+
+  .tech-field p {
+    padding-left: 20px;
+  }
+
   #skills + div .padding-0 {
     padding-left: 3px !important;
     padding-right: 3px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .tech-field p {
+    padding-left: 10px;
   }
 }
 
