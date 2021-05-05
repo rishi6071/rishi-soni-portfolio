@@ -37,8 +37,7 @@ body {
 /******** || SCROLLBAR ********/
 
 /* width */
-::-webkit-scrollbar,
-::-moz- {
+::-webkit-scrollbar {
   width: 8px;
 }
 
@@ -50,6 +49,7 @@ body {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: var(--color-scrollbar-thumb);
+  border-radius: 50px;
 }
 
 /* Handle on hover */
@@ -58,7 +58,6 @@ body {
 }
 
 .section_heading {
-  /* font-weight-bold pt-5 text-center */
   font-weight: bold;
   text-align: center;
   padding-top: 30px;
