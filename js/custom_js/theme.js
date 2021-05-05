@@ -1,4 +1,4 @@
-// Theme Script
+// --> Theme Script
 const themeCheck = () => {
     if (localStorage.getItem('theme') === undefined || localStorage.getItem('theme') === null)
         localStorage.setItem('theme', 'darkblue');
@@ -15,4 +15,13 @@ const themeCheck = () => {
             event.target.style.border = '2px solid #29b6f6';
         });
     });
+}
+
+// --> Progress Bar
+const progressControl = () => {
+    const bodyHeight = document.body.offsetHeight;
+    let scrollPosition = document.documentElement.scrollTop + window.innerHeight;
+
+    const scrollPercent = (scrollPosition / bodyHeight) * 100;
+    document.querySelector('.progress_bar').style.width = `${scrollPercent}%`;
 }

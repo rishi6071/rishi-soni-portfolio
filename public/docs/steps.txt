@@ -12,3 +12,7 @@
     firebase deploy
 7. Then copy all the Architecture and Paste it in public folder or build folder
 8. Hit the URL and use the app
+
+--> GIFs for PreLoader:
+    https://codetea.com/content/images/2017/09/Goo-Loader.gif
+    https://profile.lps.org/images/loading-icon-2.gif

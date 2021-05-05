@@ -4,6 +4,7 @@
 /****** || NAVBAR ******/
 .navbar {
   padding: 0;
+  margin-top: 6px !important;
   border-bottom: none !important;
   -webkit-box-shadow: -1px 5px 15px var(--color-navbar-shadow);
   -moz-box-shadow: -1px 5px 15px var(--color-navbar-shadow);

@@ -34,9 +34,14 @@
     <link rel="stylesheet" href="./css/custom_css/ripple.css">
 </head>
 
-<body onload="themeCheck();">
+<body onload="themeCheck();" onscroll="progressControl();">
     <!-- Preloader Start -->
     <div class="loading"></div>
+
+    <!-- Progress Bar -->
+    <div class="progress_box">
+        <div class="progress_bar"></div>
+    </div>
 
     <!-- Theme Choosing Button Start -->
     <aside>
@@ -642,7 +647,7 @@
     <script src="./js/custom_js/typed.js" defer></script>
 
     <!-- Theme Custom Script -->
-    <script src="./js/custom_js/theme.js" defer></script>
+    <script src="./js/custom_js/theme.js" async></script>
     <script>
         $(document).ready(function () {
             $('#theme_box_id').click(function () {
