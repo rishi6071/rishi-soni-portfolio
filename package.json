@@ -25,6 +25,9 @@
   },
   "homepage": "https://github.com/rishi6071/rishi-soni-portfolio#readme",
   "dependencies": {
-    "bootstrap": "^4.6.0"
-  }
+    "bootstrap": "^4.6.0",
+    "firebase": "^8.5.0",
+    "firebase-tools": "^9.10.2"
+  },
+  "devDependencies": {}
 }
