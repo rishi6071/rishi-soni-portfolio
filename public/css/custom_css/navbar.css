@@ -13,7 +13,7 @@
 
 a.navbar-brand {
   display: flex;
-  align-items: center
+  align-items: center;
 }
 
 a.navbar-brand span,
