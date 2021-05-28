@@ -5,7 +5,7 @@
         once: true,
         delay: 100,
         easing: "ease",
-        duration: 1000,
+        duration: 800,
         disable: function () {
             var maxWidth = 800;
             return window.innerWidth < maxWidth;
