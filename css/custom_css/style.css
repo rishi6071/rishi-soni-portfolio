@@ -443,11 +443,25 @@ a.social-link, .social-icon {
   height: 19px;
 }
 
+img[alt="HackerRank"] {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
 a.social-link:hover .social-icon {
   -webkit-transform: scale(1.3) rotate(360deg);
   -moz-transform: scale(1.3) rotate(360deg);
   -ms-transform: scale(1.3) rotate(360deg);
   transform: scale(1.3) rotate(360deg);
+}
+
+a.social-link:hover img[alt="HackerRank"] {
+  -webkit-transform: scale(1.6) rotate(360deg);
+  -moz-transform: scale(1.6) rotate(360deg);
+  -ms-transform: scale(1.6) rotate(360deg);
+  transform: scale(1.6) rotate(360deg);
 }
 
 footer #owner {
