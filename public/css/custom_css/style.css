@@ -144,7 +144,6 @@ a[href="#contact"] {
 
 /******** || EXPERIENCE & EDUCATION COMMUNITY ********/
 .thematic-break {
-  border-bottom: 0.7px dashed var(--color-thematic-break) !important;
   opacity: 0.5 !important;
 }
 /* 
