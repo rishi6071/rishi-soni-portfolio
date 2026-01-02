@@ -1,33 +1,27 @@
 {
-  "name": "rishi-soni",
-  "version": "1.0.0",
-  "description": "My Own Portfolio",
-  "main": "index.html",
-  "directories": {
-    "doc": "docs"
-  },
+  "name": "rishi-portfolio",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rishi6071/rishi-soni-portfolio.git"
-  },
-  "keywords": [
-    "Portfolio",
-    "\"Rishi",
-    "Soni\""
-  ],
-  "author": "Rishi Soni",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/rishi6071/rishi-soni-portfolio/issues"
-  },
-  "homepage": "https://github.com/rishi6071/rishi-soni-portfolio#readme",
   "dependencies": {
-    "bootstrap": "^4.6.0",
-    "firebase": "^8.5.0",
-    "firebase-tools": "^9.10.2"
+    "next": "16.1.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-icons": "^5.5.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
 }

@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Override dark variant to use .dark class */
+/* @tailwindcss/variant is a Tailwind v4 directive - safe to ignore linting */
+@variant dark (.dark &);
+
+/* @tailwindcss/theme is a Tailwind v4 directive - safe to ignore linting */
+@theme {
+  --color-background: #ffffff;
+  --color-foreground: #171717;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+.dark {
+  --background: #000000;
+  --foreground: #ededed;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
