@@ -178,6 +178,15 @@ const data = {
       link: "https://play.google.com/store/apps/details?id=com.licious&hl=en",
     },
     {
+      title: "Hub Management UI - Licious",
+      category: "professional",
+      technologies: ["React", "Redux", "JavaScript", "Material UI", "Sass"],
+      description:
+        "Hub Management Dashboard to manage end-to-end supply chain operations, including order acceptance, rider assignment, inventory control, rider management, and delivery tracking.",
+      image: "/assets/images/projects/licious-hub.png",
+      link: "https://hub-management.licious.in/",
+    },
+    {
       title: "Learning & Development Portal - Apisero",
       category: "professional",
       technologies: ["React", "JavaScript", "SCSS", "Material UI", "Chart.js"],
@@ -210,6 +219,14 @@ const data = {
         "Fully functional Tic-Tac-Toe game with clean game logic and responsive UI design. Enhanced player engagement using Lottie-based winner celebration animations (Jun, 2021).",
       image: "/assets/images/projects/tic-tac-toe.png",
       link: "https://rishi-tictactoe.netlify.app",
+    },
+    {
+      title: "IsoHack 2.0 Hackathon",
+      category: "self",
+      technologies: ["HTML5", "CSS3", "JavaScript", "Particle.js", "Bootstrap"],
+      description:
+        "Designed and developed an interactive website for ISOHACK 2.0, a 36-hour college hackathon, incorporating particle-based logo interactivity for enhanced user engagement (Dec 2020).",
+      image: "/assets/images/projects/isohack.png",
     },
   ],
 
