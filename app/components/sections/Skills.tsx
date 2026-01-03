@@ -1,6 +1,4 @@
-"use client";
-
-import data from "../../data";
+import data from "../../../data";
 import {
   SiJavascript,
   SiReact,

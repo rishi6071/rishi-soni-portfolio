@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**Frontend Engineer | React & Next.js Specialist | 4.5+ Years of Experience**
+**Frontend Engineer | React & Next.js | 4.5+ Years of Experience**
 
 [![Next.js](https://img.shields.io/badge/Next.js-16.1.1-black?style=flat-square&logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.2.3-61DAFB?style=flat-square&logo=react)](https://react.dev/)

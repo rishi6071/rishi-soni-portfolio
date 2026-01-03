@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { HiLink } from "react-icons/hi";
-import data from "../../data";
+import data from "../../../data";
 
 type ProjectCategory = "professional" | "self";
 

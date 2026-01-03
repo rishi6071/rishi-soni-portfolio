@@ -1,8 +1,7 @@
-"use client";
-
 import Image from "next/image";
-import data from "../../data";
+import data from "../../../data";
 import { FaDownload, FaGraduationCap, FaCode, FaUsers } from "react-icons/fa";
+import ScrollButton from "../ui/ScrollButton";
 
 const iconMap: Record<string, React.ReactNode> = {
   education: <FaGraduationCap className="w-5 h-5" />,
@@ -10,21 +9,6 @@ const iconMap: Record<string, React.ReactNode> = {
 };
 
 export default function Hero() {
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      const headerOffset = 64;
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition =
-        elementPosition + window.pageYOffset - headerOffset;
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: "smooth",
-      });
-    }
-  };
-
   return (
     <section
       id="home"
@@ -75,12 +59,12 @@ export default function Hero() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-3 mb-4 sm:mb-6 lg:mb-0 items-center">
-              <button
-                onClick={() => scrollToSection("projects")}
+              <ScrollButton
+                sectionId="projects"
                 className="w-56 sm:w-auto px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-full transition-colors flex items-center justify-center gap-2 text-xs sm:text-sm md:text-base"
               >
                 See my dev works
-              </button>
+              </ScrollButton>
               <a
                 href={data.personal.resume}
                 download

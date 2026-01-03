@@ -1,6 +1,4 @@
-"use client";
-
-import data from "../../data";
+import data from "../../../data";
 import { FaBriefcase, FaMapMarkerAlt, FaCalendarAlt } from "react-icons/fa";
 
 export default function Experience() {

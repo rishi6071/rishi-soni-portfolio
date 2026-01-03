@@ -1,7 +1,5 @@
-"use client";
-
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
-import data from "../../data";
+import data from "../../../data";
 
 export default function Contact() {
   return (
